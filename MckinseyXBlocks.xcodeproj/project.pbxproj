@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		416DFDA41F42404900750663 /* Wrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416DFDA31F42404900750663 /* Wrapper.framework */; };
+		416DFDA71F42412100750663 /* Wrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416DFDA31F42404900750663 /* Wrapper.framework */; };
+		41AD980A1F3C326A00F8F4A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AD98091F3C326A00F8F4A6 /* AppDelegate.swift */; };
+		41AD980C1F3C326A00F8F4A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AD980B1F3C326A00F8F4A6 /* ViewController.swift */; };
+		41AD980F1F3C326A00F8F4A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41AD980D1F3C326A00F8F4A6 /* Main.storyboard */; };
+		41AD98111F3C326A00F8F4A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41AD98101F3C326A00F8F4A6 /* Assets.xcassets */; };
+		41AD98141F3C326A00F8F4A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41AD98121F3C326A00F8F4A6 /* LaunchScreen.storyboard */; };
+		41AD981C1F3C348800F8F4A6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C51F1F3B40F9000D95AA /* AVFoundation.framework */; };
+		41AD981D1F3C348E00F8F4A6 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C52B1F3B4180000D95AA /* AVKit.framework */; };
+		41AD981E1F3C349400F8F4A6 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C5111F3B40A4000D95AA /* JavaScriptCore.framework */; };
+		41AD981F1F3C34A800F8F4A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C5291F3B412E000D95AA /* Foundation.framework */; };
+		41AD98201F3C34AE00F8F4A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C5271F3B4125000D95AA /* CoreGraphics.framework */; };
+		41AD98211F3C34B800F8F4A6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C5151F3B40C4000D95AA /* libc++.tbd */; };
+		41AD98221F3C34C200F8F4A6 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C5131F3B40B4000D95AA /* libxml2.tbd */; };
+		41AD98231F3C34CD00F8F4A6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C51B1F3B40E6000D95AA /* Security.framework */; };
+		41AD98241F3C34D300F8F4A6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C5191F3B40DB000D95AA /* SystemConfiguration.framework */; };
+		41AD98251F3C34E100F8F4A6 /* MediaAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C50F1F3B409E000D95AA /* MediaAccessibility.framework */; };
+		41AD98261F3C34E100F8F4A6 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C5231F3B410D000D95AA /* MediaPlayer.framework */; };
+		41AD98271F3C34E600F8F4A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C50D1F3B4097000D95AA /* QuartzCore.framework */; };
+		41AD98281F3C34F100F8F4A6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C5171F3B40D1000D95AA /* CFNetwork.framework */; };
+		41AD98291F3C354200F8F4A6 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C5211F3B4102000D95AA /* CoreText.framework */; };
+		41AD982A1F3C354800F8F4A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C5251F3B411D000D95AA /* UIKit.framework */; };
+		41AD982B1F3C357A00F8F4A6 /* MckinseyXBlocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C4F51F3B185E000D95AA /* MckinseyXBlocks.framework */; };
+		41AD982C1F3C357A00F8F4A6 /* MckinseyXBlocks.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C4F51F3B185E000D95AA /* MckinseyXBlocks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		41AD982F1F3C3CC400F8F4A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41AD982E1F3C3CC400F8F4A6 /* Images.xcassets */; };
+		41E0C4FA1F3B185E000D95AA /* MckinseyXBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E0C4F81F3B185E000D95AA /* MckinseyXBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41E0C5071F3B19F5000D95AA /* OyalaPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0C5061F3B19F5000D95AA /* OyalaPlayerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41AD98191F3C327600F8F4A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41E0C4EC1F3B185E000D95AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41E0C4F41F3B185E000D95AA;
+			remoteInfo = MckinseyXBlocks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		41AD982D1F3C357A00F8F4A6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				41AD982C1F3C357A00F8F4A6 /* MckinseyXBlocks.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		416DFDA31F42404900750663 /* Wrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Wrapper.framework; path = Carthage/Build/iOS/Wrapper.framework; sourceTree = "<group>"; };
+		41AD98071F3C326A00F8F4A6 /* OyalaPlayerClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OyalaPlayerClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AD98091F3C326A00F8F4A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41AD980B1F3C326A00F8F4A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41AD980E1F3C326A00F8F4A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41AD98101F3C326A00F8F4A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41AD98131F3C326A00F8F4A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41AD98151F3C326A00F8F4A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41AD982E1F3C3CC400F8F4A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		41E0C4F51F3B185E000D95AA /* MckinseyXBlocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MckinseyXBlocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E0C4F81F3B185E000D95AA /* MckinseyXBlocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MckinseyXBlocks.h; sourceTree = "<group>"; };
+		41E0C4F91F3B185E000D95AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E0C5061F3B19F5000D95AA /* OyalaPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OyalaPlayerViewController.swift; sourceTree = "<group>"; };
+		41E0C50D1F3B4097000D95AA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		41E0C50F1F3B409E000D95AA /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
+		41E0C5111F3B40A4000D95AA /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		41E0C5131F3B40B4000D95AA /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		41E0C5151F3B40C4000D95AA /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		41E0C5171F3B40D1000D95AA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		41E0C5191F3B40DB000D95AA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		41E0C51B1F3B40E6000D95AA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		41E0C51D1F3B40F2000D95AA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		41E0C51F1F3B40F9000D95AA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		41E0C5211F3B4102000D95AA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		41E0C5231F3B410D000D95AA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		41E0C5251F3B411D000D95AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		41E0C5271F3B4125000D95AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41E0C5291F3B412E000D95AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41E0C52B1F3B4180000D95AA /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41AD98041F3C326A00F8F4A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AD981F1F3C34A800F8F4A6 /* Foundation.framework in Frameworks */,
+				41AD982A1F3C354800F8F4A6 /* UIKit.framework in Frameworks */,
+				41AD98291F3C354200F8F4A6 /* CoreText.framework in Frameworks */,
+				41AD98281F3C34F100F8F4A6 /* CFNetwork.framework in Frameworks */,
+				41AD98271F3C34E600F8F4A6 /* QuartzCore.framework in Frameworks */,
+				41AD98251F3C34E100F8F4A6 /* MediaAccessibility.framework in Frameworks */,
+				41AD98261F3C34E100F8F4A6 /* MediaPlayer.framework in Frameworks */,
+				41AD98241F3C34D300F8F4A6 /* SystemConfiguration.framework in Frameworks */,
+				41AD98231F3C34CD00F8F4A6 /* Security.framework in Frameworks */,
+				416DFDA71F42412100750663 /* Wrapper.framework in Frameworks */,
+				41AD98221F3C34C200F8F4A6 /* libxml2.tbd in Frameworks */,
+				41AD98211F3C34B800F8F4A6 /* libc++.tbd in Frameworks */,
+				41AD982B1F3C357A00F8F4A6 /* MckinseyXBlocks.framework in Frameworks */,
+				41AD98201F3C34AE00F8F4A6 /* CoreGraphics.framework in Frameworks */,
+				41AD981E1F3C349400F8F4A6 /* JavaScriptCore.framework in Frameworks */,
+				41AD981D1F3C348E00F8F4A6 /* AVKit.framework in Frameworks */,
+				41AD981C1F3C348800F8F4A6 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E0C4F11F3B185E000D95AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416DFDA41F42404900750663 /* Wrapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41AD98081F3C326A00F8F4A6 /* OyalaPlayerClient */ = {
+			isa = PBXGroup;
+			children = (
+				41AD98091F3C326A00F8F4A6 /* AppDelegate.swift */,
+				41AD980B1F3C326A00F8F4A6 /* ViewController.swift */,
+				41AD980D1F3C326A00F8F4A6 /* Main.storyboard */,
+				41AD98101F3C326A00F8F4A6 /* Assets.xcassets */,
+				41AD98121F3C326A00F8F4A6 /* LaunchScreen.storyboard */,
+				41AD98151F3C326A00F8F4A6 /* Info.plist */,
+			);
+			path = OyalaPlayerClient;
+			sourceTree = "<group>";
+		};
+		41E0C4EB1F3B185E000D95AA = {
+			isa = PBXGroup;
+			children = (
+				41E0C4F71F3B185E000D95AA /* MckinseyXBlocks */,
+				41AD98081F3C326A00F8F4A6 /* OyalaPlayerClient */,
+				41E0C4F61F3B185E000D95AA /* Products */,
+				41E0C5011F3B18BB000D95AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		41E0C4F61F3B185E000D95AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41E0C4F51F3B185E000D95AA /* MckinseyXBlocks.framework */,
+				41AD98071F3C326A00F8F4A6 /* OyalaPlayerClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41E0C4F71F3B185E000D95AA /* MckinseyXBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				41E0C5001F3B1890000D95AA /* OOyalaVideoPlayer */,
+				41E0C4F81F3B185E000D95AA /* MckinseyXBlocks.h */,
+				41E0C4F91F3B185E000D95AA /* Info.plist */,
+				41AD982E1F3C3CC400F8F4A6 /* Images.xcassets */,
+			);
+			path = MckinseyXBlocks;
+			sourceTree = "<group>";
+		};
+		41E0C5001F3B1890000D95AA /* OOyalaVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				41E0C5061F3B19F5000D95AA /* OyalaPlayerViewController.swift */,
+			);
+			name = OOyalaVideoPlayer;
+			sourceTree = "<group>";
+		};
+		41E0C5011F3B18BB000D95AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				416DFDA31F42404900750663 /* Wrapper.framework */,
+				41E0C52B1F3B4180000D95AA /* AVKit.framework */,
+				41E0C5291F3B412E000D95AA /* Foundation.framework */,
+				41E0C5271F3B4125000D95AA /* CoreGraphics.framework */,
+				41E0C5251F3B411D000D95AA /* UIKit.framework */,
+				41E0C5231F3B410D000D95AA /* MediaPlayer.framework */,
+				41E0C5211F3B4102000D95AA /* CoreText.framework */,
+				41E0C51F1F3B40F9000D95AA /* AVFoundation.framework */,
+				41E0C51D1F3B40F2000D95AA /* CoreMedia.framework */,
+				41E0C51B1F3B40E6000D95AA /* Security.framework */,
+				41E0C5191F3B40DB000D95AA /* SystemConfiguration.framework */,
+				41E0C5171F3B40D1000D95AA /* CFNetwork.framework */,
+				41E0C5151F3B40C4000D95AA /* libc++.tbd */,
+				41E0C5131F3B40B4000D95AA /* libxml2.tbd */,
+				41E0C5111F3B40A4000D95AA /* JavaScriptCore.framework */,
+				41E0C50F1F3B409E000D95AA /* MediaAccessibility.framework */,
+				41E0C50D1F3B4097000D95AA /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		41E0C4F21F3B185E000D95AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E0C4FA1F3B185E000D95AA /* MckinseyXBlocks.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		41AD98061F3C326A00F8F4A6 /* OyalaPlayerClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AD98181F3C326A00F8F4A6 /* Build configuration list for PBXNativeTarget "OyalaPlayerClient" */;
+			buildPhases = (
+				41AD98031F3C326A00F8F4A6 /* Sources */,
+				41AD98041F3C326A00F8F4A6 /* Frameworks */,
+				41AD98051F3C326A00F8F4A6 /* Resources */,
+				41AD982D1F3C357A00F8F4A6 /* Embed Frameworks */,
+				416DFDA91F42423100750663 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41AD981A1F3C327600F8F4A6 /* PBXTargetDependency */,
+			);
+			name = OyalaPlayerClient;
+			productName = OyalaPlayerClient;
+			productReference = 41AD98071F3C326A00F8F4A6 /* OyalaPlayerClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41E0C4F41F3B185E000D95AA /* MckinseyXBlocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E0C4FD1F3B185E000D95AA /* Build configuration list for PBXNativeTarget "MckinseyXBlocks" */;
+			buildPhases = (
+				41E0C4F01F3B185E000D95AA /* Sources */,
+				41E0C4F11F3B185E000D95AA /* Frameworks */,
+				41E0C4F21F3B185E000D95AA /* Headers */,
+				41E0C4F31F3B185E000D95AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MckinseyXBlocks;
+			productName = MckinseyXBlocks;
+			productReference = 41E0C4F51F3B185E000D95AA /* MckinseyXBlocks.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41E0C4EC1F3B185E000D95AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Salman Jamil";
+				TargetAttributes = {
+					41AD98061F3C326A00F8F4A6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8UV2GNZ2BB;
+						ProvisioningStyle = Automatic;
+					};
+					41E0C4F41F3B185E000D95AA = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 41E0C4EF1F3B185E000D95AA /* Build configuration list for PBXProject "MckinseyXBlocks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41E0C4EB1F3B185E000D95AA;
+			productRefGroup = 41E0C4F61F3B185E000D95AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41E0C4F41F3B185E000D95AA /* MckinseyXBlocks */,
+				41AD98061F3C326A00F8F4A6 /* OyalaPlayerClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41AD98051F3C326A00F8F4A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AD98141F3C326A00F8F4A6 /* LaunchScreen.storyboard in Resources */,
+				41AD98111F3C326A00F8F4A6 /* Assets.xcassets in Resources */,
+				41AD980F1F3C326A00F8F4A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E0C4F31F3B185E000D95AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AD982F1F3C3CC400F8F4A6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		416DFDA91F42423100750663 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Wrapper.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41AD98031F3C326A00F8F4A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AD980C1F3C326A00F8F4A6 /* ViewController.swift in Sources */,
+				41AD980A1F3C326A00F8F4A6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E0C4F01F3B185E000D95AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E0C5071F3B19F5000D95AA /* OyalaPlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41AD981A1F3C327600F8F4A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41E0C4F41F3B185E000D95AA /* MckinseyXBlocks */;
+			targetProxy = 41AD98191F3C327600F8F4A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41AD980D1F3C326A00F8F4A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41AD980E1F3C326A00F8F4A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41AD98121F3C326A00F8F4A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41AD98131F3C326A00F8F4A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41AD98161F3C326A00F8F4A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8UV2GNZ2BB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Checkouts",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = OyalaPlayerClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arbisoft.OyalaPlayerClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		41AD98171F3C326A00F8F4A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8UV2GNZ2BB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Checkouts",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = OyalaPlayerClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arbisoft.OyalaPlayerClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		41E0C4FB1F3B185E000D95AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		41E0C4FC1F3B185E000D95AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		41E0C4FE1F3B185E000D95AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/OyalaSDKHost",
+					"$(PROJECT_DIR)/Carthage/Checkouts",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = MckinseyXBlocks/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arbisoft.MckinseyXBlocks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		41E0C4FF1F3B185E000D95AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/OyalaSDKHost",
+					"$(PROJECT_DIR)/Carthage/Checkouts",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = MckinseyXBlocks/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arbisoft.MckinseyXBlocks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41AD98181F3C326A00F8F4A6 /* Build configuration list for PBXNativeTarget "OyalaPlayerClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AD98161F3C326A00F8F4A6 /* Debug */,
+				41AD98171F3C326A00F8F4A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41E0C4EF1F3B185E000D95AA /* Build configuration list for PBXProject "MckinseyXBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E0C4FB1F3B185E000D95AA /* Debug */,
+				41E0C4FC1F3B185E000D95AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41E0C4FD1F3B185E000D95AA /* Build configuration list for PBXNativeTarget "MckinseyXBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E0C4FE1F3B185E000D95AA /* Debug */,
+				41E0C4FF1F3B185E000D95AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41E0C4EC1F3B185E000D95AA /* Project object */;
+}
