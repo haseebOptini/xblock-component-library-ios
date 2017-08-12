@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		419933A61F3ECE5D0015E5EC /* OoyalaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419933A51F3ECE5D0015E5EC /* OoyalaSDK.framework */; };
 		41AD980A1F3C326A00F8F4A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AD98091F3C326A00F8F4A6 /* AppDelegate.swift */; };
 		41AD980C1F3C326A00F8F4A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AD980B1F3C326A00F8F4A6 /* ViewController.swift */; };
 		41AD980F1F3C326A00F8F4A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41AD980D1F3C326A00F8F4A6 /* Main.storyboard */; };
 		41AD98111F3C326A00F8F4A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41AD98101F3C326A00F8F4A6 /* Assets.xcassets */; };
 		41AD98141F3C326A00F8F4A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41AD98121F3C326A00F8F4A6 /* LaunchScreen.storyboard */; };
-		41AD981B1F3C339700F8F4A6 /* OoyalaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C5041F3B1944000D95AA /* OoyalaSDK.framework */; };
 		41AD981C1F3C348800F8F4A6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C51F1F3B40F9000D95AA /* AVFoundation.framework */; };
 		41AD981D1F3C348E00F8F4A6 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C52B1F3B4180000D95AA /* AVKit.framework */; };
 		41AD981E1F3C349400F8F4A6 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C5111F3B40A4000D95AA /* JavaScriptCore.framework */; };
@@ -31,7 +31,6 @@
 		41AD982B1F3C357A00F8F4A6 /* MckinseyXBlocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C4F51F3B185E000D95AA /* MckinseyXBlocks.framework */; };
 		41AD982C1F3C357A00F8F4A6 /* MckinseyXBlocks.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C4F51F3B185E000D95AA /* MckinseyXBlocks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		41AD982F1F3C3CC400F8F4A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41AD982E1F3C3CC400F8F4A6 /* Images.xcassets */; };
-		41AD98311F3DB14200F8F4A6 /* OoyalaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C5041F3B1944000D95AA /* OoyalaSDK.framework */; };
 		41E0C4FA1F3B185E000D95AA /* MckinseyXBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E0C4F81F3B185E000D95AA /* MckinseyXBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41E0C5071F3B19F5000D95AA /* OyalaPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0C5061F3B19F5000D95AA /* OyalaPlayerViewController.swift */; };
 		41E0C50E1F3B4097000D95AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C50D1F3B4097000D95AA /* QuartzCore.framework */; };
@@ -77,6 +76,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		419933A51F3ECE5D0015E5EC /* OoyalaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OoyalaSDK.framework; path = Carthage/Checkouts/OoyalaSDK.framework; sourceTree = "<group>"; };
 		41AD98071F3C326A00F8F4A6 /* OyalaPlayerClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OyalaPlayerClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41AD98091F3C326A00F8F4A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41AD980B1F3C326A00F8F4A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,7 +88,6 @@
 		41E0C4F51F3B185E000D95AA /* MckinseyXBlocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MckinseyXBlocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41E0C4F81F3B185E000D95AA /* MckinseyXBlocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MckinseyXBlocks.h; sourceTree = "<group>"; };
 		41E0C4F91F3B185E000D95AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		41E0C5041F3B1944000D95AA /* OoyalaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OoyalaSDK.framework; sourceTree = "<group>"; };
 		41E0C5061F3B19F5000D95AA /* OyalaPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OyalaPlayerViewController.swift; sourceTree = "<group>"; };
 		41E0C50D1F3B4097000D95AA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		41E0C50F1F3B409E000D95AA /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
@@ -129,7 +128,6 @@
 				41AD981E1F3C349400F8F4A6 /* JavaScriptCore.framework in Frameworks */,
 				41AD981D1F3C348E00F8F4A6 /* AVKit.framework in Frameworks */,
 				41AD981C1F3C348800F8F4A6 /* AVFoundation.framework in Frameworks */,
-				41AD981B1F3C339700F8F4A6 /* OoyalaSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +138,7 @@
 				41E0C52C1F3B4180000D95AA /* AVKit.framework in Frameworks */,
 				41E0C52A1F3B412E000D95AA /* Foundation.framework in Frameworks */,
 				41E0C5281F3B4125000D95AA /* CoreGraphics.framework in Frameworks */,
+				419933A61F3ECE5D0015E5EC /* OoyalaSDK.framework in Frameworks */,
 				41E0C5261F3B411D000D95AA /* UIKit.framework in Frameworks */,
 				41E0C5241F3B410D000D95AA /* MediaPlayer.framework in Frameworks */,
 				41E0C5221F3B4102000D95AA /* CoreText.framework in Frameworks */,
@@ -148,7 +147,6 @@
 				41E0C51C1F3B40E6000D95AA /* Security.framework in Frameworks */,
 				41E0C51A1F3B40DB000D95AA /* SystemConfiguration.framework in Frameworks */,
 				41E0C5181F3B40D1000D95AA /* CFNetwork.framework in Frameworks */,
-				41AD98311F3DB14200F8F4A6 /* OoyalaSDK.framework in Frameworks */,
 				41E0C5161F3B40C4000D95AA /* libc++.tbd in Frameworks */,
 				41E0C5141F3B40B4000D95AA /* libxml2.tbd in Frameworks */,
 				41E0C5121F3B40A4000D95AA /* JavaScriptCore.framework in Frameworks */,
@@ -214,6 +212,7 @@
 		41E0C5011F3B18BB000D95AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				419933A51F3ECE5D0015E5EC /* OoyalaSDK.framework */,
 				41E0C52B1F3B4180000D95AA /* AVKit.framework */,
 				41E0C5291F3B412E000D95AA /* Foundation.framework */,
 				41E0C5271F3B4125000D95AA /* CoreGraphics.framework */,
@@ -230,7 +229,6 @@
 				41E0C5111F3B40A4000D95AA /* JavaScriptCore.framework */,
 				41E0C50F1F3B409E000D95AA /* MediaAccessibility.framework */,
 				41E0C50D1F3B4097000D95AA /* QuartzCore.framework */,
-				41E0C5041F3B1944000D95AA /* OoyalaSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -546,6 +544,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/OyalaSDKHost",
+					"$(PROJECT_DIR)/Carthage/Checkouts",
 				);
 				INFOPLIST_FILE = MckinseyXBlocks/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -572,6 +572,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/OyalaSDKHost",
+					"$(PROJECT_DIR)/Carthage/Checkouts",
 				);
 				INFOPLIST_FILE = MckinseyXBlocks/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
