@@ -34,10 +34,24 @@
 		41AD982F1F3C3CC400F8F4A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41AD982E1F3C3CC400F8F4A6 /* Images.xcassets */; };
 		41E0C4FA1F3B185E000D95AA /* MckinseyXBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E0C4F81F3B185E000D95AA /* MckinseyXBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41E0C5071F3B19F5000D95AA /* OyalaPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0C5061F3B19F5000D95AA /* OyalaPlayerViewController.swift */; };
+		63ACD0AF1F4466DA00C525A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ACD0AE1F4466DA00C525A5 /* AppDelegate.swift */; };
+		63ACD0B11F4466DA00C525A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ACD0B01F4466DA00C525A5 /* ViewController.swift */; };
+		63ACD0B41F4466DA00C525A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63ACD0B21F4466DA00C525A5 /* Main.storyboard */; };
+		63ACD0B61F4466DA00C525A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63ACD0B51F4466DA00C525A5 /* Assets.xcassets */; };
+		63ACD0B91F4466DA00C525A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63ACD0B71F4466DA00C525A5 /* LaunchScreen.storyboard */; };
+		63ACD0C01F44676100C525A5 /* MckinseyXBlocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C4F51F3B185E000D95AA /* MckinseyXBlocks.framework */; };
+		63ACD0C11F44676100C525A5 /* MckinseyXBlocks.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C4F51F3B185E000D95AA /* MckinseyXBlocks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		41AD98191F3C327600F8F4A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41E0C4EC1F3B185E000D95AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41E0C4F41F3B185E000D95AA;
+			remoteInfo = MckinseyXBlocks;
+		};
+		63ACD0BE1F4466E600C525A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 41E0C4EC1F3B185E000D95AA /* Project object */;
 			proxyType = 1;
@@ -54,6 +68,17 @@
 			dstSubfolderSpec = 10;
 			files = (
 				41AD982C1F3C357A00F8F4A6 /* MckinseyXBlocks.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63ACD0C21F44676100C525A5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				63ACD0C11F44676100C525A5 /* MckinseyXBlocks.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +115,13 @@
 		41E0C5271F3B4125000D95AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		41E0C5291F3B412E000D95AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		41E0C52B1F3B4180000D95AA /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		63ACD0AC1F4466DA00C525A5 /* MRQClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRQClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63ACD0AE1F4466DA00C525A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63ACD0B01F4466DA00C525A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63ACD0B31F4466DA00C525A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63ACD0B51F4466DA00C525A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63ACD0B81F4466DA00C525A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63ACD0BA1F4466DA00C525A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +157,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		63ACD0A91F4466DA00C525A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ACD0C01F44676100C525A5 /* MckinseyXBlocks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -146,6 +186,7 @@
 			children = (
 				41E0C4F71F3B185E000D95AA /* MckinseyXBlocks */,
 				41AD98081F3C326A00F8F4A6 /* OyalaPlayerClient */,
+				63ACD0AD1F4466DA00C525A5 /* MRQClient */,
 				41E0C4F61F3B185E000D95AA /* Products */,
 				41E0C5011F3B18BB000D95AA /* Frameworks */,
 			);
@@ -156,6 +197,7 @@
 			children = (
 				41E0C4F51F3B185E000D95AA /* MckinseyXBlocks.framework */,
 				41AD98071F3C326A00F8F4A6 /* OyalaPlayerClient.app */,
+				63ACD0AC1F4466DA00C525A5 /* MRQClient.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,6 +243,19 @@
 				41E0C50D1F3B4097000D95AA /* QuartzCore.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63ACD0AD1F4466DA00C525A5 /* MRQClient */ = {
+			isa = PBXGroup;
+			children = (
+				63ACD0AE1F4466DA00C525A5 /* AppDelegate.swift */,
+				63ACD0B01F4466DA00C525A5 /* ViewController.swift */,
+				63ACD0B21F4466DA00C525A5 /* Main.storyboard */,
+				63ACD0B51F4466DA00C525A5 /* Assets.xcassets */,
+				63ACD0B71F4466DA00C525A5 /* LaunchScreen.storyboard */,
+				63ACD0BA1F4466DA00C525A5 /* Info.plist */,
+			);
+			path = MRQClient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +310,25 @@
 			productReference = 41E0C4F51F3B185E000D95AA /* MckinseyXBlocks.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		63ACD0AB1F4466DA00C525A5 /* MRQClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63ACD0BD1F4466DA00C525A5 /* Build configuration list for PBXNativeTarget "MRQClient" */;
+			buildPhases = (
+				63ACD0A81F4466DA00C525A5 /* Sources */,
+				63ACD0A91F4466DA00C525A5 /* Frameworks */,
+				63ACD0AA1F4466DA00C525A5 /* Resources */,
+				63ACD0C21F44676100C525A5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63ACD0BF1F4466E600C525A5 /* PBXTargetDependency */,
+			);
+			name = MRQClient;
+			productName = MRQClient;
+			productReference = 63ACD0AC1F4466DA00C525A5 /* MRQClient.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -272,7 +346,13 @@
 					};
 					41E0C4F41F3B185E000D95AA = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = FN75PC35CY;
 						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					63ACD0AB1F4466DA00C525A5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = FN75PC35CY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -292,6 +372,7 @@
 			targets = (
 				41E0C4F41F3B185E000D95AA /* MckinseyXBlocks */,
 				41AD98061F3C326A00F8F4A6 /* OyalaPlayerClient */,
+				63ACD0AB1F4466DA00C525A5 /* MRQClient */,
 			);
 		};
 /* End PBXProject section */
@@ -312,6 +393,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				41AD982F1F3C3CC400F8F4A6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63ACD0AA1F4466DA00C525A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ACD0B91F4466DA00C525A5 /* LaunchScreen.storyboard in Resources */,
+				63ACD0B61F4466DA00C525A5 /* Assets.xcassets in Resources */,
+				63ACD0B41F4466DA00C525A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +443,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		63ACD0A81F4466DA00C525A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ACD0B11F4466DA00C525A5 /* ViewController.swift in Sources */,
+				63ACD0AF1F4466DA00C525A5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -359,6 +459,11 @@
 			isa = PBXTargetDependency;
 			target = 41E0C4F41F3B185E000D95AA /* MckinseyXBlocks */;
 			targetProxy = 41AD98191F3C327600F8F4A6 /* PBXContainerItemProxy */;
+		};
+		63ACD0BF1F4466E600C525A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41E0C4F41F3B185E000D95AA /* MckinseyXBlocks */;
+			targetProxy = 63ACD0BE1F4466E600C525A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -375,6 +480,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				41AD98131F3C326A00F8F4A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		63ACD0B21F4466DA00C525A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63ACD0B31F4466DA00C525A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63ACD0B71F4466DA00C525A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63ACD0B81F4466DA00C525A5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -530,6 +651,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FN75PC35CY;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -559,6 +681,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FN75PC35CY;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -576,6 +699,34 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.arbisoft.MckinseyXBlocks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		63ACD0BB1F4466DA00C525A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FN75PC35CY;
+				INFOPLIST_FILE = MRQClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Arbisoft.MRQClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		63ACD0BC1F4466DA00C525A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FN75PC35CY;
+				INFOPLIST_FILE = MRQClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Arbisoft.MRQClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -609,6 +760,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		63ACD0BD1F4466DA00C525A5 /* Build configuration list for PBXNativeTarget "MRQClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63ACD0BB1F4466DA00C525A5 /* Debug */,
+				63ACD0BC1F4466DA00C525A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
