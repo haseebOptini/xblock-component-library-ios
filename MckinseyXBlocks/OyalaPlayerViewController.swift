@@ -7,8 +7,9 @@
 //
 
 import UIKit
-import Wrapper
+import DynamicOoyalaWrapper
 import Foundation
+import WebKit
 
 public protocol OyalaPlayerDelegate {
     
@@ -478,8 +479,9 @@ public class OyalaPlayerViewController: UIViewController {
 
     // the wrapped ViewController
     private var internalPalyer: OOOoyalaPlayerViewController!
-    
-    
+    fileprivate let webView: WKWebView
+    fileprivate let exchangeRequest: URLRequest?
+    fileprivate let request: URLRequest?
     public var state: State {
         switch  internalPalyer.player.state() {
         case OOOoyalaPlayerStateInit:
@@ -510,7 +512,10 @@ public class OyalaPlayerViewController: UIViewController {
     /// - Parameter contentID: The content-id from ooyala backlot
     /// - Parameter domain: The domain where the content is hosted
     /// - Parameter pcode: The player code obtained from ooyala account
-    public init(contentID: String, domain: String, pcode: String) {
+    public init(contentID: String, domain: String, pcode: String, exchangeRequest: URLRequest? = nil, request: URLRequest? = nil) {
+        webView = WKWebView()
+        self.request = request
+        self.exchangeRequest = exchangeRequest
         super.init(nibName: nil, bundle: nil)
         loadViewIfNeeded()
         let domain = OOPlayerDomain(string: domain)
@@ -523,12 +528,28 @@ public class OyalaPlayerViewController: UIViewController {
         let topConstraint = internalPalyer.view.topAnchor.constraint(equalTo: view.topAnchor)
         let leadingConstraint = internalPalyer.view.leadingAnchor.constraint(equalTo: view.leadingAnchor)
         let widhtConstraint = internalPalyer.view.widthAnchor.constraint(equalTo: view.widthAnchor)
-        let heightConstraint = internalPalyer.view.heightAnchor.constraint(equalToConstant: 200)
+        let heightConstraint = internalPalyer.view.heightAnchor.constraint(equalToConstant: 250)
         NSLayoutConstraint.activate([topConstraint, leadingConstraint, widhtConstraint, heightConstraint])
         internalPalyer.didMove(toParentViewController: self)
         internalPalyer.setFullscreen(false)
         internalPalyer.showControls()
+        
+        
+        webView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(webView)
+        webView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 30).isActive = true
+        view.trailingAnchor.constraint(equalTo: webView.trailingAnchor, constant: 30).isActive = true
+        view.bottomAnchor.constraint(equalTo: webView.bottomAnchor, constant: 30).isActive = true
+        webView.topAnchor.constraint(equalTo: internalPalyer.view.bottomAnchor, constant: 30).isActive = true
+        webView.navigationDelegate = self
+        
+        if let request = exchangeRequest {
+            webView.load(request)
+        } else if let request = request {
+            webView.load(request)
+        }
     }
+    
     
     public func play() {
         internalPalyer.player.play()
@@ -540,5 +561,14 @@ public class OyalaPlayerViewController: UIViewController {
     
     required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+}
+
+@available(iOS 9.0, *)
+extension OyalaPlayerViewController : WKNavigationDelegate {
+    public func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        if webView.url == exchangeRequest?.url, let req = self.request {
+            webView.load(req)
+        }
     }
 }

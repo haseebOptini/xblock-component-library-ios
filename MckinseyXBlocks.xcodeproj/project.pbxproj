@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		416DFDA41F42404900750663 /* Wrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416DFDA31F42404900750663 /* Wrapper.framework */; };
-		416DFDA71F42412100750663 /* Wrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416DFDA31F42404900750663 /* Wrapper.framework */; };
 		41AD980A1F3C326A00F8F4A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AD98091F3C326A00F8F4A6 /* AppDelegate.swift */; };
 		41AD980C1F3C326A00F8F4A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AD980B1F3C326A00F8F4A6 /* ViewController.swift */; };
 		41AD980F1F3C326A00F8F4A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41AD980D1F3C326A00F8F4A6 /* Main.storyboard */; };
@@ -41,6 +39,8 @@
 		63ACD0B91F4466DA00C525A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63ACD0B71F4466DA00C525A5 /* LaunchScreen.storyboard */; };
 		63ACD0C01F44676100C525A5 /* MckinseyXBlocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C4F51F3B185E000D95AA /* MckinseyXBlocks.framework */; };
 		63ACD0C11F44676100C525A5 /* MckinseyXBlocks.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C4F51F3B185E000D95AA /* MckinseyXBlocks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		41EE667F1F45A00B00930274 /* DynamicOoyalaWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EE667E1F45A00B00930274 /* DynamicOoyalaWrapper.framework */; };
+		41EE66801F45A01400930274 /* DynamicOoyalaWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EE667E1F45A00B00930274 /* DynamicOoyalaWrapper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,7 +86,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		416DFDA31F42404900750663 /* Wrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Wrapper.framework; path = Carthage/Build/iOS/Wrapper.framework; sourceTree = "<group>"; };
 		41AD98071F3C326A00F8F4A6 /* OyalaPlayerClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OyalaPlayerClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41AD98091F3C326A00F8F4A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41AD980B1F3C326A00F8F4A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +121,7 @@
 		63ACD0B51F4466DA00C525A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63ACD0B81F4466DA00C525A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63ACD0BA1F4466DA00C525A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41EE667E1F45A00B00930274 /* DynamicOoyalaWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DynamicOoyalaWrapper.framework; path = Carthage/Build/iOS/DynamicOoyalaWrapper.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,11 +138,11 @@
 				41AD98261F3C34E100F8F4A6 /* MediaPlayer.framework in Frameworks */,
 				41AD98241F3C34D300F8F4A6 /* SystemConfiguration.framework in Frameworks */,
 				41AD98231F3C34CD00F8F4A6 /* Security.framework in Frameworks */,
-				416DFDA71F42412100750663 /* Wrapper.framework in Frameworks */,
 				41AD98221F3C34C200F8F4A6 /* libxml2.tbd in Frameworks */,
 				41AD98211F3C34B800F8F4A6 /* libc++.tbd in Frameworks */,
 				41AD982B1F3C357A00F8F4A6 /* MckinseyXBlocks.framework in Frameworks */,
 				41AD98201F3C34AE00F8F4A6 /* CoreGraphics.framework in Frameworks */,
+				41EE66801F45A01400930274 /* DynamicOoyalaWrapper.framework in Frameworks */,
 				41AD981E1F3C349400F8F4A6 /* JavaScriptCore.framework in Frameworks */,
 				41AD981D1F3C348E00F8F4A6 /* AVKit.framework in Frameworks */,
 				41AD981C1F3C348800F8F4A6 /* AVFoundation.framework in Frameworks */,
@@ -153,7 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				416DFDA41F42404900750663 /* Wrapper.framework in Frameworks */,
+				41EE667F1F45A00B00930274 /* DynamicOoyalaWrapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +224,7 @@
 		41E0C5011F3B18BB000D95AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				416DFDA31F42404900750663 /* Wrapper.framework */,
+				41EE667E1F45A00B00930274 /* DynamicOoyalaWrapper.framework */,
 				41E0C52B1F3B4180000D95AA /* AVKit.framework */,
 				41E0C5291F3B412E000D95AA /* Foundation.framework */,
 				41E0C5271F3B4125000D95AA /* CoreGraphics.framework */,
@@ -415,7 +415,7 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Wrapper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/DynamicOoyalaWrapper.framework",
 			);
 			outputPaths = (
 			);
