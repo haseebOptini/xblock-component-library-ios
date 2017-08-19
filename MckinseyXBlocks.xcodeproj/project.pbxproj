@@ -32,6 +32,10 @@
 		41AD982F1F3C3CC400F8F4A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41AD982E1F3C3CC400F8F4A6 /* Images.xcassets */; };
 		41E0C4FA1F3B185E000D95AA /* MckinseyXBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E0C4F81F3B185E000D95AA /* MckinseyXBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41E0C5071F3B19F5000D95AA /* OyalaPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0C5061F3B19F5000D95AA /* OyalaPlayerViewController.swift */; };
+		41EE667F1F45A00B00930274 /* DynamicOoyalaWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EE667E1F45A00B00930274 /* DynamicOoyalaWrapper.framework */; };
+		41EE66801F45A01400930274 /* DynamicOoyalaWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EE667E1F45A00B00930274 /* DynamicOoyalaWrapper.framework */; };
+		6320C2A51F4746E100899893 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6320C2A31F4746E100899893 /* MyViewController.swift */; };
+		6320C2A61F4746E100899893 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6320C2A41F4746E100899893 /* MyViewController.xib */; };
 		63ACD0AF1F4466DA00C525A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ACD0AE1F4466DA00C525A5 /* AppDelegate.swift */; };
 		63ACD0B11F4466DA00C525A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ACD0B01F4466DA00C525A5 /* ViewController.swift */; };
 		63ACD0B41F4466DA00C525A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63ACD0B21F4466DA00C525A5 /* Main.storyboard */; };
@@ -39,8 +43,6 @@
 		63ACD0B91F4466DA00C525A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63ACD0B71F4466DA00C525A5 /* LaunchScreen.storyboard */; };
 		63ACD0C01F44676100C525A5 /* MckinseyXBlocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C4F51F3B185E000D95AA /* MckinseyXBlocks.framework */; };
 		63ACD0C11F44676100C525A5 /* MckinseyXBlocks.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C4F51F3B185E000D95AA /* MckinseyXBlocks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		41EE667F1F45A00B00930274 /* DynamicOoyalaWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EE667E1F45A00B00930274 /* DynamicOoyalaWrapper.framework */; };
-		41EE66801F45A01400930274 /* DynamicOoyalaWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EE667E1F45A00B00930274 /* DynamicOoyalaWrapper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +116,9 @@
 		41E0C5271F3B4125000D95AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		41E0C5291F3B412E000D95AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		41E0C52B1F3B4180000D95AA /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		41EE667E1F45A00B00930274 /* DynamicOoyalaWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DynamicOoyalaWrapper.framework; path = Carthage/Build/iOS/DynamicOoyalaWrapper.framework; sourceTree = "<group>"; };
+		6320C2A31F4746E100899893 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		6320C2A41F4746E100899893 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
 		63ACD0AC1F4466DA00C525A5 /* MRQClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRQClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63ACD0AE1F4466DA00C525A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63ACD0B01F4466DA00C525A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,7 +126,6 @@
 		63ACD0B51F4466DA00C525A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63ACD0B81F4466DA00C525A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63ACD0BA1F4466DA00C525A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		41EE667E1F45A00B00930274 /* DynamicOoyalaWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DynamicOoyalaWrapper.framework; path = Carthage/Build/iOS/DynamicOoyalaWrapper.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +209,7 @@
 		41E0C4F71F3B185E000D95AA /* MckinseyXBlocks */ = {
 			isa = PBXGroup;
 			children = (
+				6320C2A21F47449A00899893 /* MRQ */,
 				41E0C5001F3B1890000D95AA /* OOyalaVideoPlayer */,
 				41E0C4F81F3B185E000D95AA /* MckinseyXBlocks.h */,
 				41E0C4F91F3B185E000D95AA /* Info.plist */,
@@ -243,6 +248,15 @@
 				41E0C50D1F3B4097000D95AA /* QuartzCore.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6320C2A21F47449A00899893 /* MRQ */ = {
+			isa = PBXGroup;
+			children = (
+				6320C2A31F4746E100899893 /* MyViewController.swift */,
+				6320C2A41F4746E100899893 /* MyViewController.xib */,
+			);
+			name = MRQ;
 			sourceTree = "<group>";
 		};
 		63ACD0AD1F4466DA00C525A5 /* MRQClient */ = {
@@ -318,6 +332,7 @@
 				63ACD0A91F4466DA00C525A5 /* Frameworks */,
 				63ACD0AA1F4466DA00C525A5 /* Resources */,
 				63ACD0C21F44676100C525A5 /* Embed Frameworks */,
+				6320C2A11F470D4300899893 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -392,6 +407,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6320C2A61F4746E100899893 /* MyViewController.xib in Resources */,
 				41AD982F1F3C3CC400F8F4A6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +439,20 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
+		6320C2A11F470D4300899893 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/DynamicOoyalaWrapper.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -439,6 +469,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6320C2A51F4746E100899893 /* MyViewController.swift in Sources */,
 				41E0C5071F3B19F5000D95AA /* OyalaPlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -768,6 +799,7 @@
 				63ACD0BC1F4466DA00C525A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
