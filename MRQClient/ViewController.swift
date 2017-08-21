@@ -20,18 +20,18 @@ class ViewController: UIViewController {
 
         
         let bundle = Bundle(identifier: "com.arbisoft.MckinseyXBlocks")
-        let testViewController = MyViewController(nibName: "MyViewController", bundle: bundle)
-        addChildViewController(testViewController)
-        view.addSubview(testViewController.view)
-        testViewController.view.translatesAutoresizingMaskIntoConstraints = false
-        testViewController.view.translatesAutoresizingMaskIntoConstraints = false
+        let mrqViewController = MRQViewController(nibName: "MRQViewController", bundle: bundle)
+        addChildViewController(mrqViewController)
+        view.addSubview(mrqViewController.view)
+        mrqViewController.view.translatesAutoresizingMaskIntoConstraints = false
+        mrqViewController.view.translatesAutoresizingMaskIntoConstraints = false
 //        testViewController.view.heightAnchor.constraint(equalTo: view.heightAnchor).isActive = true
 //        testViewController.view.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
-        testViewController.view.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
-        testViewController.view.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        mrqViewController.view.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+        mrqViewController.view.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
         
-        testViewController.view.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
-        testViewController.view.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+        mrqViewController.view.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        mrqViewController.view.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
 
 
         

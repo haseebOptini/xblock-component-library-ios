@@ -36,6 +36,8 @@
 		41EE66801F45A01400930274 /* DynamicOoyalaWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EE667E1F45A00B00930274 /* DynamicOoyalaWrapper.framework */; };
 		6320C2A51F4746E100899893 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6320C2A31F4746E100899893 /* MyViewController.swift */; };
 		6320C2A61F4746E100899893 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6320C2A41F4746E100899893 /* MyViewController.xib */; };
+		6341E0871F489EA70097E84C /* AnswerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6341E0851F489EA60097E84C /* AnswerTableViewCell.swift */; };
+		6341E0881F489EA70097E84C /* AnswerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6341E0861F489EA70097E84C /* AnswerTableViewCell.xib */; };
 		63ACD0AF1F4466DA00C525A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ACD0AE1F4466DA00C525A5 /* AppDelegate.swift */; };
 		63ACD0B11F4466DA00C525A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ACD0B01F4466DA00C525A5 /* ViewController.swift */; };
 		63ACD0B41F4466DA00C525A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63ACD0B21F4466DA00C525A5 /* Main.storyboard */; };
@@ -43,6 +45,8 @@
 		63ACD0B91F4466DA00C525A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63ACD0B71F4466DA00C525A5 /* LaunchScreen.storyboard */; };
 		63ACD0C01F44676100C525A5 /* MckinseyXBlocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C4F51F3B185E000D95AA /* MckinseyXBlocks.framework */; };
 		63ACD0C11F44676100C525A5 /* MckinseyXBlocks.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C4F51F3B185E000D95AA /* MckinseyXBlocks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		63D383641F4863AB00CEDA9A /* MRQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D383621F4863AB00CEDA9A /* MRQViewController.swift */; };
+		63D383651F4863AB00CEDA9A /* MRQViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D383631F4863AB00CEDA9A /* MRQViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +123,8 @@
 		41EE667E1F45A00B00930274 /* DynamicOoyalaWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DynamicOoyalaWrapper.framework; path = Carthage/Build/iOS/DynamicOoyalaWrapper.framework; sourceTree = "<group>"; };
 		6320C2A31F4746E100899893 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		6320C2A41F4746E100899893 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		6341E0851F489EA60097E84C /* AnswerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerTableViewCell.swift; sourceTree = "<group>"; };
+		6341E0861F489EA70097E84C /* AnswerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnswerTableViewCell.xib; sourceTree = "<group>"; };
 		63ACD0AC1F4466DA00C525A5 /* MRQClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRQClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63ACD0AE1F4466DA00C525A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63ACD0B01F4466DA00C525A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +132,8 @@
 		63ACD0B51F4466DA00C525A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63ACD0B81F4466DA00C525A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63ACD0BA1F4466DA00C525A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D383621F4863AB00CEDA9A /* MRQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRQViewController.swift; sourceTree = "<group>"; };
+		63D383631F4863AB00CEDA9A /* MRQViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRQViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,6 +263,10 @@
 			children = (
 				6320C2A31F4746E100899893 /* MyViewController.swift */,
 				6320C2A41F4746E100899893 /* MyViewController.xib */,
+				63D383621F4863AB00CEDA9A /* MRQViewController.swift */,
+				63D383631F4863AB00CEDA9A /* MRQViewController.xib */,
+				6341E0851F489EA60097E84C /* AnswerTableViewCell.swift */,
+				6341E0861F489EA70097E84C /* AnswerTableViewCell.xib */,
 			);
 			name = MRQ;
 			sourceTree = "<group>";
@@ -409,6 +421,8 @@
 			files = (
 				6320C2A61F4746E100899893 /* MyViewController.xib in Resources */,
 				41AD982F1F3C3CC400F8F4A6 /* Images.xcassets in Resources */,
+				63D383651F4863AB00CEDA9A /* MRQViewController.xib in Resources */,
+				6341E0881F489EA70097E84C /* AnswerTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,8 +483,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D383641F4863AB00CEDA9A /* MRQViewController.swift in Sources */,
 				6320C2A51F4746E100899893 /* MyViewController.swift in Sources */,
 				41E0C5071F3B19F5000D95AA /* OyalaPlayerViewController.swift in Sources */,
+				6341E0871F489EA70097E84C /* AnswerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
