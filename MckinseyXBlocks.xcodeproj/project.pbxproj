@@ -30,6 +30,7 @@
 		41AD982B1F3C357A00F8F4A6 /* MckinseyXBlocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C4F51F3B185E000D95AA /* MckinseyXBlocks.framework */; };
 		41AD982C1F3C357A00F8F4A6 /* MckinseyXBlocks.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41E0C4F51F3B185E000D95AA /* MckinseyXBlocks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		41AD982F1F3C3CC400F8F4A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41AD982E1F3C3CC400F8F4A6 /* Images.xcassets */; };
+		41B0B7351F4AF34700BCFCCF /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B0B7341F4AF34700BCFCCF /* Action.swift */; };
 		41E0C4FA1F3B185E000D95AA /* MckinseyXBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E0C4F81F3B185E000D95AA /* MckinseyXBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41E0C5071F3B19F5000D95AA /* OyalaPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E0C5061F3B19F5000D95AA /* OyalaPlayerViewController.swift */; };
 		41EE667F1F45A00B00930274 /* DynamicOoyalaWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EE667E1F45A00B00930274 /* DynamicOoyalaWrapper.framework */; };
@@ -69,6 +70,7 @@
 		41AD98131F3C326A00F8F4A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41AD98151F3C326A00F8F4A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41AD982E1F3C3CC400F8F4A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		41B0B7341F4AF34700BCFCCF /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 		41E0C4F51F3B185E000D95AA /* MckinseyXBlocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MckinseyXBlocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41E0C4F81F3B185E000D95AA /* MckinseyXBlocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MckinseyXBlocks.h; sourceTree = "<group>"; };
 		41E0C4F91F3B185E000D95AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				41E0C4F81F3B185E000D95AA /* MckinseyXBlocks.h */,
 				41E0C4F91F3B185E000D95AA /* Info.plist */,
 				41AD982E1F3C3CC400F8F4A6 /* Images.xcassets */,
+				41B0B7341F4AF34700BCFCCF /* Action.swift */,
 			);
 			path = MckinseyXBlocks;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41E0C5071F3B19F5000D95AA /* OyalaPlayerViewController.swift in Sources */,
+				41B0B7351F4AF34700BCFCCF /* Action.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
